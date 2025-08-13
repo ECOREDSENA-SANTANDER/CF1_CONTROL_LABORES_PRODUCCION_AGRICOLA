@@ -2,29 +2,221 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 50%
+    right: 20%
+    width: 12%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 80%
+    right: 60%
+    width: 12%
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
-.banner-interno__titulo__icono i
-  color: $color-primario
+
+.banner-principal .tarjeta 
+  img,
+    margin: -30px
+    width: 100%
+
+
+.banner-principal__row 
+    justify-content: space-around
+
+
 figcaption
   font-weight: normal
+.barra-avance__boton--regresar span 
+    color: white !important
+
+
+.img-t
+  width: auto
+  height: auto
+.img-a
+  display: block
+  margin: auto
+
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+      border-radius: 0px
+    &__info
+      padding-top: 8% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+      border-radius: 0px
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
  
+
+.banner-interno__titulo__icono i 
+    color: 
+
+
+//INTRO
+
+.bloque-texto-a.color-primario:before 
+  background-color: #DDF6CD
+.bloque-texto-a.color-primario
+  background-color: #99C4AE
+
+
+
+
+//TEMA1
+
+.tarjetaf
+  background: url('../assets/curso/tema1/fondo1.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  overflow: hidden
+  transition: transform 0.3s ease
+.slyder-a__bullets__item 
+  background-color: #FDDBCF
+  border-color: #FDDBCF
+.slyder-a__bullets__item--active 
+  background-color: #D93A04!important
+  border-color: #D93A04!important
+.slyder-a__tipo-b .slyder-a__btn--sigt 
+  content: url('../assets/curso/tema1/der.svg')
+  transform: rotate(0deg)
+  right: 15px
+.slyder-a__tipo-b .slyder-a__btn--atrs 
+  content: url('../assets/curso/tema1/izq.svg')
+  transform: rotate(0deg)
+  left: 15px
+@media only screen and (max-width: 767px)
+  .slyder-a__bullets__item 
+    width: 12px
+    height: 12px
+    margin: 0px 1px
+@media only screen and (max-width: 767px)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 45px
+    height: 45px
+
+
+.titulo
+  background-color:#FFF7E5
+  border-radius: 15px
+  width: fit-content
+  padding: 10px
+  position: relative 
+.titulo img
+  width: 60px
+  position: absolute
+  top: -25%
+  right: 83%
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    width: 60px
+    top: -23%
+    right: 83%
+  @media only screen and (max-width: 767px)
+    display: none
+
+
+.tarjeta--slyder.b1
+  background-color: #EEFBE6
+.bg5
+  background-color: #FFAD09
+.fa-chevron-right:before 
+    content: url('../assets/curso/tema1/der.svg')
+.fa-chevron-left:before 
+    content: url('../assets/curso/tema1/izq.svg')
+    
+
+.sob1
+  margin-left: -15% 
+  margin-bottom: -24px
+  z-index: 2
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 9rem
+  & > *
+    position: relative
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 50px)
+    height: 100%
+    background-color: #EEFBE6
+  @media (max-width: 1000px)
+    padding-right: 2rem
+.crd--first, .crd--last
+  &::before
+    background-color: #CCE2D6 !important
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
+
+
+.bg7 
+  background: url('../assets/curso/tema1/fondo2.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  &:hover 
+    background-image: url('../assets/curso/tema1/fondo3.png')
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
+    .ima1 
+      content: url("../assets/curso/tema1/25.svg") !important
+    .ima2 
+      content: url("../assets/curso/tema1/26.svg") !important
+    .ima3 
+      content: url("../assets/curso/tema1/27.svg") !important
+    .ima4 
+      content: url("../assets/curso/tema1/28.svg") !important
+  .ima1, .ima2, .ima3, .ima4 
+    transition: all 0.3s ease
+    display: inline-block
+  
+
+.bg2
+  background: url('../assets/curso/tema1/fondo4.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  &:hover 
+    background-image: url('../assets/curso/tema1/fondo5.png')
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
+.bg1
+  background-color: #006D36
+  width: fit-content
+  margin: 0 auto
+
+//TEMA2
