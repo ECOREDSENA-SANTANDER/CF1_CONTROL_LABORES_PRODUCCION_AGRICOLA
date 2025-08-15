@@ -19,7 +19,8 @@
             p.mb-0 Esta visión integral fortalece la capacidad de quienes participan en los procesos agrícolas para enfrentar los desafíos del sector, promoviendo una gestión más organizada, técnica y sostenible.
         .col-lg-3.col-md-6.col-9.mb-0
           img(src='@/assets/curso/intro/1.png', alt='')
-    .row.justify-content-center.align-items-center           
+          
+    .row.justify-content-center.align-items-center(data-aos="fade-left")          
       .col-lg-12
         figure
           .video
