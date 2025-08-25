@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 1
-        h1 Titulo de primer nivel
+        h1 Cultivo
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
         .col-lg-12
@@ -237,7 +237,7 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                h4.mb-2.brow Preparación del terrenos agrícolas
+                h4.mb-2.brow Preparación de terrenos agrícolas
                 p.mb-0 Se invita a seguir explorando sobre las normativas de las buenas prácticas agrícolas.
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=X5lN6swL2ZE" target="_blank")
@@ -341,7 +341,7 @@
               img.img-t.mb-4.d-none.d-lg-block(src='@/assets/curso/tema1/46.svg', alt='Imagen decorativa')
               p.mb-0(data-aos="fade-left") El suelo es una mezcla compleja de materia orgánica, minerales, agua y aire, formada a lo largo del tiempo mediante la descomposición de rocas, la actividad biológica y la acción de diversos factores climáticos. Su composición varía según la región, lo que determina su aptitud agrícola. Estas variaciones influyen directamente en su capacidad para sustentar distintos tipos de cultivos, siendo algunos suelos altamente productivos, mientras que otros pueden presentar limitaciones para la agricultura.
 
-      TabsA.color-acento-contenido(data-aos="fade-right")
+      TabsA.color-acento-contenido.mb-0(data-aos="fade-right")
         .tarjeta.color-acento-contenido.bg6.p-lg-5.p-4(titulo="Suelos arenosos")
           .row.justify-content-center
             .col-lg-8

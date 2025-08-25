@@ -98,8 +98,6 @@
                 td Tecnología
                 td.text-start.p-lg-5 Aplicación de herramientas modernas como agricultura de precisión, sensores, drones y biotecnología para una producción más eficiente y sostenible.
 
-        figcaption Referencia Tabla - Norma APA
-
     .tarjeta.color-secundario.p-4.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -108,7 +106,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-2.brow Requerimientos de la producción agrícola
-              p.mb-0 Se invita a seguir explorando sobre las normativas de las buenas prácticas agrícolas.
+              p.mb-0 Se invita a seguir conociendo sobre los requerimientos necesarios de la producción.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=06NTVz9mbb4" target="_blank")
                 span Ir al sitio
@@ -188,126 +186,17 @@
         .titulo-sexto.color-secundario.mb-4
           h5 Figura 1. 
           | Matriz DAFO - diagnóstico agrícola
-
-        .tabla-a.color-acento-contenido.mb-2(data-aos="fade-left")
-          table
-            thead
-              tr
-                th Debilidades (D)
-                th Amenazas (A)
-            tbody
-              tr
-                td - Limitaciones en recursos financieros.
-                td - Cambios climáticos impredecibles.
-              tr
-                td - Infraestructura insuficiente.
-                td - Plagas y enfermedades emergentes.
-              tr
-                td - Falta de capacitación en nuevas técnicas.
-                td - Variaciones en los precios del mercado.
-              tr
-                td - Dependencia de insumos externos.
-                td - Regulaciones ambientales estrictas.
-              tr
-                th Fortalezas (F)
-                th Oportunidades (O)
-              tr
-                td - Conocimiento técnico del equipo.
-                td - Demanda creciente de productos agrícolas.
-              tr
-                td - Buen acceso a tecnología agrícola.
-                td - Apoyo gubernamental y programas de subsidio.
-              tr
-                td - Experiencia en manejo de cultivos.
-                td - Nuevas tecnologías accesibles.
-              tr
-                td - Buena organización de las actividades.
-                td - Acceso a mercados locales e internacionales.
+        img(src='@/assets/curso/tema2/9.svg', alt='La matriz DOFA muestra un análisis del sector agrícola, identificando fortalezas como el conocimiento técnico y debilidades como la falta de recursos. También se destacan oportunidades del entorno, como el apoyo gubernamental, y amenazas como el cambio climático.')
 
     p.mb-4(data-aos="fade-right") La información más relevante descrita anteriormente sobre los elementos de un plan de producción se resume de forma sencilla en la siguiente figura:
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(alt='Muestra un plan de producción agrícola con actividades organizadas por responsable, etapa, recursos, fechas, duración y estado de avance.')
     
         .titulo-sexto.color-secundario.mb-4(data-aos="fade-right")
-          h5 Figura 1. 
-          | Matriz DAFO - diagnóstico agrícola
-
-        .tabla-a.color-primario.tab2.mb-2
-          table
-            thead
-              th.p-4(colspan="9").text-white Plan de producción agrícola
-            tbody
-              tr.gr.h5
-                td Actividades
-                td Responsable
-                td Etapa
-                td Descripción
-                td Recursos (tiempo, financiero, personal)
-                td Fecha de inicio
-                td Fecha de finalización
-                td Cantidad de días
-                td Estado
-              tr
-                td Actividad 1
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-                td EN PROCESO
-              tr
-                td Actividad 2
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-                td RETRASO
-              tr
-                td Actividad 3
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-                td COMPLETO
-              tr
-                td Actividad 4
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-              tr
-                td Actividad 5
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-              tr
-                td Actividad 6
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
-                td -
+          h5 Figura 2. 
+          | Plan de producción agrícola
+        img(src='@/assets/curso/tema2/10.svg', alt='Muestra un plan de producción agrícola con actividades organizadas por responsable, etapa, recursos, fechas, duración y estado de avance.')
 
     .cajon.color-acento-botones.p-4.p-md-4.p-lg-5.mb-0(data-aos="fade-right")
       p.mb-0 Un plan de trabajo bien estructurado es una herramienta clave para una gestión eficiente del plan de producción, ya que ofrece una guía clara, facilita la coordinación y el seguimiento de actividades, y mejora las probabilidades de alcanzar los objetivos propuestos.

@@ -7,7 +7,7 @@
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-12.mb-5.p-4
         figure
-          img(src="@/assets/curso/sintesis.png", alt="Presenta los elementos esenciales del plan de producción agrícola. Parte del análisis del cultivo, seguido por la producción agrícola, factores agroclimáticos y tipos de suelo. También incluye los recursos necesarios (tiempo, presupuesto y personal), los requerimientos del cultivo y finaliza con el plan de trabajo como componente integrador.")
+          img(src="@/assets/curso/sintesis.svg", alt="Presenta los elementos esenciales del plan de producción agrícola. Parte del análisis del cultivo, seguido por la producción agrícola, factores agroclimáticos y tipos de suelo. También incluye los recursos necesarios (tiempo, presupuesto y personal), los requerimientos del cultivo y finaliza con el plan de trabajo como componente integrador.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

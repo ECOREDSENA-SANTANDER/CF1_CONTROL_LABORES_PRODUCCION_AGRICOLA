@@ -44,7 +44,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Su respuesta refleja que domina el tema para realizar el plan de trabajo.',
+            'Su respuesta refleja que domina el tema para realizar el plan de producción agrícola.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -67,7 +67,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Su respuesta refleja que domina el tema para realizar el plan de trabajo.',
+            'Su respuesta refleja que domina el tema para realizar el plan de producción agrícola.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -90,7 +90,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Su respuesta refleja que domina el tema para realizar el plan de trabajo.',
+            'Su respuesta refleja que domina el tema para realizar el plan de producción agrícola.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -113,7 +113,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Su respuesta refleja que domina el tema para realizar el plan de trabajo.',
+            'Su respuesta refleja que domina el tema para realizar el plan de producción agrícola.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -136,7 +136,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Su respuesta refleja que domina el tema para realizar el plan de trabajo.',
+            'Su respuesta refleja que domina el tema para realizar el plan de producción agrícola.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -159,7 +159,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Su respuesta refleja que domina el tema para realizar el plan de trabajo.',
+            'Su respuesta refleja que domina el tema para realizar el plan de producción agrícola.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -182,7 +182,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Su respuesta refleja que domina el tema para realizar el plan de trabajo.',
+            'Su respuesta refleja que domina el tema para realizar el plan de producción agrícola.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -205,7 +205,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Su respuesta refleja que domina el tema para realizar el plan de trabajo.',
+            'Su respuesta refleja que domina el tema para realizar el plan de producción agrícola.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -228,7 +228,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Su respuesta refleja que domina el tema para realizar el plan de trabajo.',
+            'Su respuesta refleja que domina el tema para realizar el plan de producción agrícola.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -251,13 +251,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Su respuesta refleja que domina el tema para realizar el plan de trabajo.',
+            'Su respuesta refleja que domina el tema para realizar el plan de producción agrícola.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        'Ha identificado con claridad los tipos de cultivo y las labores de producción como base para la realización del plan de trabajo.',
+        'Ha identificado con claridad los tipos de cultivo y las labores de producción como base para la realización del plan de producción agrícola.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
