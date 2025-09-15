@@ -108,7 +108,7 @@
               h4.mb-2.brow Requerimientos de la producción agrícola
               p.mb-0 Se invita a seguir conociendo sobre los requerimientos necesarios de la producción.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=06NTVz9mbb4" target="_blank")
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=27GAg1Vytlk" target="_blank")
                 span Ir al sitio
                 i.fas.fa-file-video
 
