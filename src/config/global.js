@@ -73,7 +73,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF1_27040109_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -95,13 +95,6 @@ export default {
       tipo: 'Artículo',
       link:
         'https://elpais.com/america-colombia/2025-06-21/las-mujeres-wayuu-que-desafian-al-desierto-nuestra-tierra-ahora-esta-viva.html?utm_source=chatgpt.com',
-    },
-    {
-      tema: 'Plan de trabajo',
-      referencia:
-        'Ministerio de Agricultura y Desarrollo Rural & Corporación Colombiana de Investigación Agropecuaria (AGROSAVIA). (2013). Prácticas culturales en berenjena.',
-      tipo: 'Video',
-      link: 'http://hdl.handle.net/20.500.12324/33536',
     },
   ],
   glosario: [
@@ -245,7 +238,7 @@ export default {
       autores: [
         {
           nombre: 'Marcos Yamid Rubiano Avellaneda',
-          cargo: 'Diseñadora de contenidos',
+          cargo: 'Diseñador de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -269,7 +262,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

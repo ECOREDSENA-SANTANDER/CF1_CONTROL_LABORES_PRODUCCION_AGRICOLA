@@ -386,6 +386,7 @@
             .col-lg-4
               img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/52.png', alt='')
 
+
   </template>
 
 <script>
